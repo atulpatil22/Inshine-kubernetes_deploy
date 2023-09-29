@@ -6,7 +6,7 @@ pipeline {
         
         stage('Checkout'){
            steps {
-                git credentialsId: 'github', 
+                git credentialsId: '541c943b-b2fd-43a4-ac98-6d5c41dd253c', 
                 url: 'https://github.com/atulpatil22/kubernetes_deploy/',
                 branch: 'main'
            }
