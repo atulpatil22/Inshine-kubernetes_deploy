@@ -6,8 +6,8 @@ pipeline {
         
         stage('Checkout'){
            steps {
-                git credentialsId: '57adf257-3c13-4da7-9068-59675d3f7a62', 
-                url: 'https://github.com/iam-veeramalla/cicd-end-to-end',
+                git credentialsId: 'github', 
+                url: 'https://github.com/atulpatil22/kubernetes_deploy/',
                 branch: 'main'
            }
         }
